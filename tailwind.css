@@ -1,44 +1,48 @@
+.static {
+  position: static
+}
+
+.fixed {
+  position: fixed
+}
+
+.absolute {
+  position: absolute
+}
+
 .relative {
-  position: relative;
+  position: relative
 }
 
 .block {
-  display: block;
+  display: block
 }
 
 .inline {
-  display: inline;
+  display: inline
 }
 
 .flex {
-  display: flex;
+  display: flex
 }
 
 .hidden {
-  display: none;
+  display: none
 }
 
 .border {
-  border-width: 1px;
+  border-width: 1px
 }
 
 .uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .capitalize {
-  text-transform: capitalize;
-}
-
-.italic {
-  font-style: italic;
+  text-transform: capitalize
 }
 
 .text-blue-500 {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
+  color: rgb(59 130 246 / var(--tw-text-opacity))
 }
