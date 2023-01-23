@@ -39,6 +39,21 @@
 			"display": "none"
 		}
 	},
+	"h-64": {
+		"style": {
+			"height": 256
+		}
+	},
+	"w-full": {
+		"style": {
+			"width": "100%"
+		}
+	},
+	"w-64": {
+		"style": {
+			"width": 256
+		}
+	},
 	"border": {
 		"style": {
 			"borderTopWidth": 1,
@@ -55,12 +70,6 @@
 	"capitalize": {
 		"style": {
 			"textTransform": "capitalize"
-		}
-	},
-	"text-blue-500": {
-		"style": {
-			"--tw-text-opacity": 1,
-			"color": "rgb(59 130 246 / var(--tw-text-opacity))"
 		}
 	}
 }
