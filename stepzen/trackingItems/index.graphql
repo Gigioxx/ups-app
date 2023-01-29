@@ -21,7 +21,7 @@ type TrackingItemsList {
 }
 
 type Query {
-  getTrackingItemsById(id: ID!): TrackingItems
+  getTrackingItemById(id: ID!): TrackingItems
     @rest(
       endpoint: "https://ups-app-cffa5-default-rtdb.firebaseio.com/trackingItems/$id.json"
     )
