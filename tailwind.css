@@ -38,12 +38,26 @@
   width: 100%
 }
 
-.w-64 {
-  width: 16rem
-}
-
 .border {
   border-width: 1px
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem
+}
+
+.pt-5 {
+  padding-top: 1.25rem
+}
+
+.pb-0 {
+  padding-bottom: 0px
 }
 
 .uppercase {
@@ -52,4 +66,12 @@
 
 .capitalize {
   text-transform: capitalize
+}
+
+.italic {
+  font-style: italic
+}
+
+.underline {
+  text-decoration-line: underline
 }

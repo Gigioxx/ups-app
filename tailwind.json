@@ -49,17 +49,34 @@
 			"width": "100%"
 		}
 	},
-	"w-64": {
-		"style": {
-			"width": 256
-		}
-	},
 	"border": {
 		"style": {
 			"borderTopWidth": 1,
 			"borderRightWidth": 1,
 			"borderBottomWidth": 1,
 			"borderLeftWidth": 1
+		}
+	},
+	"bg-white": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(255 255 255 / var(--tw-bg-opacity))"
+		}
+	},
+	"px-10": {
+		"style": {
+			"paddingLeft": 40,
+			"paddingRight": 40
+		}
+	},
+	"pt-5": {
+		"style": {
+			"paddingTop": 20
+		}
+	},
+	"pb-0": {
+		"style": {
+			"paddingBottom": 0
 		}
 	},
 	"uppercase": {
@@ -70,6 +87,16 @@
 	"capitalize": {
 		"style": {
 			"textTransform": "capitalize"
+		}
+	},
+	"italic": {
+		"style": {
+			"fontStyle": "italic"
+		}
+	},
+	"underline": {
+		"style": {
+			"textDecorationLine": "underline"
 		}
 	}
 }
