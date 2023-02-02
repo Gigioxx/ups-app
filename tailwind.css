@@ -52,6 +52,10 @@
   margin-top: 1.25rem
 }
 
+.mt-3 {
+  margin-top: 0.75rem
+}
+
 .block {
   display: block
 }
@@ -78,6 +82,10 @@
 
 .flex-row {
   flex-direction: row
+}
+
+.items-start {
+  align-items: flex-start
 }
 
 .items-center {
@@ -129,6 +137,10 @@
 
 .pb-0 {
   padding-bottom: 0px
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem
 }
 
 .text-center {
